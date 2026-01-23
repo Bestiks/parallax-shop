@@ -5,7 +5,7 @@ import { useSearchParams } from 'next/navigation'
 import { createClient } from '../../../lib/supabase/client'
 import ProductCard from '../../../components/ProductCard'
 import Skeleton from '../../../components/Skeleton'
-import { FiFilter, FiSortAsc, FiSortDesc } from 'react-icons/fi'
+import { FiFilter, FiArrowUp, FiArrowDown } from 'react-icons/fi'
 
 const categories = [
   { value: 'all', label: 'Все категории' },
